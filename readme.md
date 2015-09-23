@@ -1,12 +1,4 @@
----
-title: Functions Lab
-type: lab
-duration: "1:25"
-creator:
-  name: Gerry Mathe, Alex Notov
-  city: London, San Francisco
-competencies: Programming
----
+![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png)
 
 # Functions Lab
 
@@ -22,6 +14,8 @@ This lab provides an opportunity to pracitce implementing some real-world functi
 
 Please write code that implements various functions, following the requirements in the list below:
 
+1. Fork this repo
+1. Clone this repo into your ~/code/labs
 1. Define a function `maxOfTwoNumbers` that takes two numbers as arguments and returns the largest of them. Use the if-then-else construct available in Javascript. Do some googling to figure this out if you forget how conditionals work.
 2. Define a function `maxOfThree` that takes three numbers as arguments and returns the largest of them.
 3. Write a function `isCharacterAVowel` that takes a character (i.e. a string of length 1) and returns true if it is a vowel, false otherwise.
@@ -55,6 +49,19 @@ For example, calling the function with the string "General Assembly" will return
   y: 1
 }
 ```
+
+#### Submission
+
+1. Upon completion, run the following commands
+
+  ```
+  git add .
+  git commit -m "done"
+  git push origin master
+  ```
+
+1. Navigate to your repo and create a Pull Request
+1. Put the link to Pull Request to the Student Excel File
 
 #### Starter Code
 
